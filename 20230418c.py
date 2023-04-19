@@ -50,39 +50,3 @@ print(len('hello')) # len 은 길이확인 가능(데이터의 길이 체크)
 # 함수를 호출(call)
 # x라는 변수를 받아 f(x)라는 함수의 공정을 거친 후 y의 리턴값을 반환받음
 # ex) len('hello') 는 hello라는 입력을 받아 len이라는 함수를 거쳐 5라는 리턴값을 반환받음
-
-
-
-a = 'abcdefghijk' # 추가로 메모
-print(a[0:10:2]) # 인덱스 0부터 10까지 2의 간격으로 출력. 결과 acegi
-print(a[::2]) # acegik
-print(a[::-2]) # kigeca
-
-print('ㅡㅡㅡㅡㅡㅡㅡㅡ') # 이런게 있다 정도만
-a = "{name}은 {age}이다.".format(age = '17살', name = "철수") # 순서 상관없이 대입가능
-print(a)
-
-a = "안녕 {}.".format("민수")
-print(a)
-
-print('ㅡㅡㅡㅡㅡㅡㅡㅡ')
-a = "My favorite number is %d." % 3 # %d에 3이 들어감. 숫자만 가능, % 뒤에 씌어쓰기 주의
-print(a) # My favorite number is 3. 출력. 이런 방식은 수정이 편함.
-
-number = 10
-day = "three"
-a = "I ate %s apples. so I was sick for %s days." % (number, day)
-print(a)
-
-
-i = 'Jhon' # i가 a보다 늦게 선언될 경우 에러남.
-a = "hello %s" % (i)
-print(a)
-
-# %s 문자열 (웬만한거 다 됨) (숫자도 문자로 바껴서 들어감)
-# %c 문자 1개
-# %d 정수
-# %f 부동소수
-# %o 8진수
-# %x 16진수
-# %% Literal % (문자 '%' 자체)
