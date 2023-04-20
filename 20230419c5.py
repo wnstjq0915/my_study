@@ -49,6 +49,7 @@ a = dict_2.get("나이") # None값 또한 변수에 할당 가능
 print(a)
 print(dict_2.get("나이", "나이 불명")) # 이 경우 "나이"가 없으면 None 대신 뒤에 "나이불명"을 출력
 print(dict_2.get(1)) # 1의 value값인 a 출력
+# value를 이용해 key값을 찾는 경우도 있지만 딕셔너리 내를 순회한 뒤에 찾기에 비효율적
 
 # clear()
 # 딕셔너리 안의 모든 요소를 삭제한다.
