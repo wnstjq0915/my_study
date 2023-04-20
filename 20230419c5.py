@@ -36,7 +36,7 @@ print(dict_keys)
 dict_values = dict_2.values() # 딕셔너리에서 key 값만 리스트 형태로 돌려준다.
 print(dict_values)
 
-#딕셔너리에서 key-value 쌍을 튜플로 묶은 값을 리스트 형태로 돌려준다.
+# 딕셔너리에서 key-value 쌍을 튜플로 묶은 값을 리스트 형태로 돌려준다.
 dict_items = dict_2.items() # 반복문 돌릴 때 유용
 print(dict_items)
 
