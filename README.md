@@ -25,8 +25,8 @@
 [dictionary](20230419c5.py)  
 [practice_list](20230419c6.py)  
 ### 4월 20일 코드
-[while_loop](20230420c.py)
-[for_loop](20230420c2.py
+[while_loop](20230420c.py)  
+[for_loop](20230420c2.py)  
 ## 메모
 [4월 17일 메모](20230417t)  
 [4월 18일 메모](20230418t)  
