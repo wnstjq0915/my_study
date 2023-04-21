@@ -10,23 +10,23 @@
 ### 추가로 공부한거
 [코드메모](study_plus.py)
 ### 4월 17일 코드
-[printing](day1_printing.py)
+[printing](python_study/day1_printing.py)
 ### 4월 18일 코드
-[stringdata](day2_1_stringdata.py)  
-[variable](day2_2_variable.py)  
-[if_statement](day2_3_if_statement.py)  
-[ex_weather](day2_4_weather.py)  
-[ex_chicken](day2_5_chiken.py)  
+[stringdata](python_study/day2_1_stringdata.py)  
+[variable](python_study/day2_2_variable.py)  
+[if_statement](python_study/day2_3_if_statement.py)  
+[ex_weather](python_study/day2_4_weather.py)  
+[ex_chicken](python_study/day2_5_chiken.py)  
 ### 4월 19일 코드
-[practice_if](day3_1_practice1.py)  
-[float_data](day3_2_float_data.py)  
-[list_data](day3_3_list_data.py)  
-[list_practice](day3_4_list_practice.py)  
-[dictionary](day3_5_dictionary_data.py)  
-[practice_list](day3_6_practice2.py)  
+[practice_if](python_study/day3_1_practice1.py)  
+[float_data](python_study/day3_2_float_data.py)  
+[list_data](python_study/day3_3_list_data.py)  
+[list_practice](python_study/day3_4_list_practice.py)  
+[dictionary](python_study/day3_5_dictionary_data.py)  
+[practice_list](python_study/day3_6_practice2.py)  
 ### 4월 20일 코드
-[while_loop](day4_1_while_loop.py)  
-[for_loop](day4_2_for_loop.py)  
+[while_loop](python_study/day4_1_while_loop.py)  
+[for_loop](python_study/day4_2_for_loop.py)  
 ## 메모
 [4월 17일 메모](20230417t)  
 [4월 18일 메모](20230418t)  
