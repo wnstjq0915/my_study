@@ -38,4 +38,3 @@ print(type(a))
 print(str(a))
 a = str(a) # print(str(a)) 는 프린트 내에서만 바뀜
 print(type(a))
-print(type(a))
