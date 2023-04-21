@@ -10,23 +10,23 @@
 ### 추가로 공부한거
 [코드메모](study_plus.py)
 ### 4월 17일 코드
-[printing](20230417c.py)
+[printing](day1_printing.py)
 ### 4월 18일 코드
-[stringdata](20230418c.py)  
-[variable](20230418c2.py)  
-[if_statement](20230418c3.py)  
-[ex_weather](20230418c4.py)  
-[ex_chicken](20230418c5.py)  
+[stringdata](day2_1_stringdata.py)  
+[variable](day2_2_variable.py)  
+[if_statement](day2_3_if_statement.py)  
+[ex_weather](day2_4_weather.py)  
+[ex_chicken](day2_5_chiken.py)  
 ### 4월 19일 코드
-[practice_if](20230419c.py)  
-[float_data](20230419c2.py)  
-[list_data](20230419c3.py)  
-[list_practice](20230419c4.py)  
-[dictionary](20230419c5.py)  
-[practice_list](20230419c6.py)  
+[practice_if](day3_1_practice1.py)  
+[float_data](day3_2_float_data.py)  
+[list_data](day3_3_list_data.py)  
+[list_practice](day3_4_list_practice.py)  
+[dictionary](day3_5_dictionary_data.py)  
+[practice_list](day3_6_practice2.py)  
 ### 4월 20일 코드
-[while_loop](20230420c.py)  
-[for_loop](20230420c2.py)  
+[while_loop](day4_1_while_loop.py)  
+[for_loop](day4_2_for_loop.py)  
 ## 메모
 [4월 17일 메모](20230417t)  
 [4월 18일 메모](20230418t)  
