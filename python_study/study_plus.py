@@ -93,10 +93,6 @@ print(a) # 인덱스 0에서 1까지가 없어지면서 c만 남게 됨
 
 # sort의 정렬은 정수형뿐만아니라 ㄱㄴㄷ나 abc순 정렬
 
-# 리스트 [] 와 튜플 () 차이
-# 리스트는 append와 같이 수정 가능하지만 튜플은 X
-# ex) 튜플은 del을 이용해 삭제시 오류
-# 대신 수정하지 않는 인덱싱이나 슬라이싱은 가능
 
 print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
 a = {
@@ -126,3 +122,57 @@ for i in range(a):
 
 # 결론
 # for문은 iterable값의 인덱스가 1씩 늘어나면서 반복됨.
+
+
+print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
+"""
+
+""문자열의 구성 파악하기""
+
+isalnum()
+알파벳 또는 숫자 구성인지
+
+is alpha()
+알파벳 구성인지
+
+isidentifier()
+식별자(변수나 클래스명으로 가능한 값)로 사용할 수 있는지
+
+isdecimal()
+정수 형태인지
+
+isdigit()
+숫자로 인식될 수 있는지
+
+isspace()
+공백으로만 구성되어 있는지
+
+islower() / isupper()
+소문자 / 대문자로만 구성되어 있는지
+"""
+
+print("a1b2c3".isalnum()) # True
+print("#a@b$c^#".isalnum()) # False
+
+print("abc".isalpha()) # True
+print("a1b2c3".isalpha()) # False
+
+print("data".isidentifier()) # True
+print("1_data".isidentifier()) # False, 변수명이나 클래스명은 숫자로 시작X
+
+print("1234".isdecimal()) # True
+print("0110".isdecimal()) # True
+print("-111".isdecimal()) # False
+print("3²".isdecimal()) # False
+
+print("1234".isdigit()) # True
+print("0110".isdigit()) # True
+print("-111".isdigit()) # False
+print("3²".isdigit()) # True
+
+print(" ".isspace()) #True
+print(".    ".isspace()) # False
+
+print("abcde".islower()) # True
+print("ABCDE".isupper()) # True
+print("AbCdE".islower()) # False

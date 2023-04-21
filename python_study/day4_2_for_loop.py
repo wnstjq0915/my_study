@@ -39,7 +39,7 @@ for number in numbers:
 # range(시작, 끝, 스텝)
 # 시작 ~ 끝 -1까지인데 스텝만큼 차이나게
 
-for i in range(10):
+for i in range(10): # == range(0, 10)
     print(i) # 0 ~ 9 출력
 
 for i in range(1, 10):
