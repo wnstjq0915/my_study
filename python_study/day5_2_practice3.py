@@ -111,7 +111,7 @@ for i in range(1, n + 1):
     for j in str(i): # 문자열로 바꿔서 for문 진행
         if int(j) % 3 == 0 and j != "0": # 앞자리부터 차근차근 확인해서 3이 나올 경우 answer에 짝 할당 후 for문 나감.
             answer = "짝" # 369 중 하나라도 나왔을 때 짝으로 출력하도록
-            break # 두번째 for문만 빠져나감. (없어도 되지 않나? 있으면 메모리는 아끼겠지만 코드는 줄어들 듯)
+            break # 두번째 for문만 빠져나감.
     print(answer) # 이중 for문 안에 있는 if를 조건에 안 걸리고 통과한다면 처음에 할당한 i가 출력
 
 
