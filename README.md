@@ -5,7 +5,8 @@
 [4월 17일](20230417.md)  
 [4월 18일](20230418.md)  
 [4월 19일](20230419.md)  
-[4월 20일](20230420.md)
+[4월 20일](20230420.md)  
+[4월 21일](20230421.md)  
 ## Code 요약
 ### 추가로 공부한거
 [코드메모](python_study/study_plus.py)
@@ -27,8 +28,12 @@
 ### 4월 20일 코드
 [while_loop](python_study/day4_1_while_loop.py)  
 [for_loop](python_study/day4_2_for_loop.py)  
+### 4월 21일 코드
+[tuple_data](python_study\day5_1_tuple_data.py)  
+[practice3](python_study\day5_2_practice3.py)
 ## 메모
-[4월 17일 메모](20230417t)  
-[4월 18일 메모](20230418t)  
-[4월 19일 메모](20230419t)  
-[4월 20일 메모](20230420t)  
+[4월 17일 메모](20230417t.txt)  
+[4월 18일 메모](20230418t.txt)  
+[4월 19일 메모](20230419t.txt)  
+[4월 20일 메모](20230420t.txt)  
+[4월 21일 메모](20230421t.txt)  
