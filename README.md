@@ -8,7 +8,7 @@
 [4월 20일](20230420.md)
 ## Code 요약
 ### 추가로 공부한거
-[코드메모](study_plus.py)
+[코드메모](python_study/study_plus.py)
 ### 4월 17일 코드
 [printing](python_study/day1_printing.py)
 ### 4월 18일 코드
@@ -16,7 +16,7 @@
 [variable](python_study/day2_2_variable.py)  
 [if_statement](python_study/day2_3_if_statement.py)  
 [ex_weather](python_study/day2_4_weather.py)  
-[ex_chicken](python_study/day2_5_chiken.py)  
+[ex_chicken](python_study/day2_5_chicken.py)  
 ### 4월 19일 코드
 [practice_if](python_study/day3_1_practice1.py)  
 [float_data](python_study/day3_2_float_data.py)  
