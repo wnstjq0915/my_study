@@ -23,3 +23,12 @@ for i in range(1, 5):
     print(i)
 
 # range() 괄호 내에 숫자가 하나면 0부터, 그 외에는 앞숫자부터 시작하니 주의.
+
+print("-----------")
+def add(a, b):
+    return a + b
+
+def print_add(a, b):
+    print(a + b)
+
+result = print_add(1, 2) # 함수가 실행되고 result에 none 할당

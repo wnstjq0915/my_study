@@ -32,6 +32,7 @@
 [tuple_data](python_study\day5_1_tuple_data.py)  
 [practice3](python_study\day5_2_practice3.py)
 ## 메모
+- 추후 수정 및 삭제 예정
 [4월 17일 메모](20230417t.txt)  
 [4월 18일 메모](20230418t.txt)  
 [4월 19일 메모](20230419t.txt)  
