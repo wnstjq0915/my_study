@@ -7,6 +7,7 @@
 [4월 19일](20230419.md)  
 [4월 20일](20230420.md)  
 [4월 21일](20230421.md)  
+[4월 24일](20230424.md)
 ## Code 요약
 ### 추가로 공부한거
 [코드메모](python_study/study_plus.py)
@@ -30,9 +31,11 @@
 [for_loop](python_study/day4_2_for_loop.py)  
 ### 4월 21일 코드
 [tuple_data](python_study\day5_1_tuple_data.py)  
-[practice3](python_study\day5_2_practice3.py)
+[practice3](python_study\day5_2_practice3.py)  
+### 4월 24일 코드
+[function_study](python_study\day6_function_study.py)  
 ## 메모
-- 추후 수정 및 삭제 예정
+- 추후 수정 및 삭제 예정  
 [4월 17일 메모](20230417t.txt)  
 [4월 18일 메모](20230418t.txt)  
 [4월 19일 메모](20230419t.txt)  

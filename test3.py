@@ -15,7 +15,11 @@
 # print(b)
 # # if는 지역변수?, 전역변수?
 
-a = 1
-b = 2
-a, b = b, a
-print(a, b)
+# a = 1
+# b = 2
+# a, b = b, a
+# print(a, b)
+
+# def test_func(x, test[]): # 에러
+#     print(x, test)
+# test_func(1, [1, 2, 3])
