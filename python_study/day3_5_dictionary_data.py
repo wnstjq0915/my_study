@@ -42,6 +42,7 @@ dict_items = dict_2.items() # 반복문 돌릴 때 유용
 print(dict_items)
 
 # get()
+# []를 통해 value를 찾는것과의 차이점은 에러가 안 남.
 # key에 대응되는 value를 돌려준다.
 # key값이 존재하지 않으면 None을 돌려준다. 그냥 dict_2["나이"]를 했을 경우 "나이"가 없으면 에러남
 dict_2.get("나이") # dict_2에는 나이라는 키가 없음
