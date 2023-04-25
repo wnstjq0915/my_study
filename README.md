@@ -8,6 +8,7 @@
 [4월 20일](20230420.md)  
 [4월 21일](20230421.md)  
 [4월 24일](20230424.md)
+[4월 25일](20230425.md)
 ## Code 요약
 ### 추가로 공부한거
 [코드메모](python_study/study_plus.py)
@@ -34,6 +35,11 @@
 [practice3](python_study\day5_2_practice3.py)  
 ### 4월 24일 코드
 [function_study](python_study\day6_function_study.py)  
+### 4월 25일 코드
+[practice4](python_study\day7_1_practice4.py)  
+[file_io](python_study\day7_2_file_io.py)  
+[mycalculator](python_study\day7_3_my_calculator.py)  
+[formatting](python_study\day7_4_formatting.py)  
 ## 메모
 - 추후 수정 및 삭제 예정  
 [4월 17일 메모](20230417t.txt)  
@@ -41,3 +47,4 @@
 [4월 19일 메모](20230419t.txt)  
 [4월 20일 메모](20230420t.txt)  
 [4월 21일 메모](20230421t.txt)  
+[4월 25일 메모](20230425t.txt)
