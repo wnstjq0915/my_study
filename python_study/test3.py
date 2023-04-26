@@ -38,6 +38,11 @@
 # a.sort() # 리스트가 비어도 sort는 에러없이 작동.
 # print(min(a)) # 리스트 안에 값이 없으면 min은 에러
 
-a = [1, 2, 3, 4, 5]
-print(5 - a.pop(0)) # 리스트에서 바로 빼서 사용 가능
+# a = [1, 2, 3, 4, 5]
+# print(5 - a.pop(0)) # 리스트에서 바로 빼서 사용 가능
+# print(a)
+
+def test():
+    print("test")
+a = test() # 함수 호출과 동시에 작동. a에 할당과 동시에 프린트됨.
 print(a)
