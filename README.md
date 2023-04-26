@@ -9,6 +9,7 @@
 [4월 21일](20230421.md)  
 [4월 24일](20230424.md)  
 [4월 25일](20230425.md)  
+[4월 26일](20230426.md)  
 ## Code 요약
 ### 추가로 공부한거
 [코드메모](python_study/study_plus.py)
@@ -40,6 +41,13 @@
 [file_io](python_study\day7_2_file_io.py)  
 [mycalculator](python_study\day7_3_my_calculator.py)  
 [formatting](python_study\day7_4_formatting.py)  
+### 4월 26일 코드
+[class_study](python_study\day8_1_class_study.py)  
+[my_calculator](python_study\day8_2_my_calculator.py)  
+[module_study](python_study\day8_3_module_study.py)  
+[module_study2](python_study\my_module.py)  
+[try_study](python_study\day8_4_try_study.py)  
+[max_limit_caculator](python_study\day8_5_max_limit_calculator.py)  
 ## 메모
 - 추후 수정 및 삭제 예정  
 [4월 17일 메모](20230417t.txt)  
