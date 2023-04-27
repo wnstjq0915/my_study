@@ -71,10 +71,6 @@ print(s.lower())
 
 # strip()
 # 문자열 양쪽 끝의 특정 문자를 제거
-s1 = "   Hello   "
-print(s1.strip()) # 공백 제거되고 Hello 출력
-# lstrip(), rstrip()
-# 왼쪽, 오른쪽 끝의 특정문자 제거
 
 # split()
 # 구분자로 분할하여 리스트로 반환

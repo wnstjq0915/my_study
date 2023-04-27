@@ -14,6 +14,7 @@ print(my_module.sub(1, 2))
 from 모듈이름 import 모듈함수
 from 모듈이름 import 모듈함수1, 모듈함수2
 from 모듈이름 import *          -> 별은 전체 다
+함수 말고 class를 받을 수도 있음
 """
 from my_module import add, sub
 print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
@@ -25,7 +26,7 @@ print(add(1, 2))
 print(sub(1, 2))
 print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
 # import my_module # 함수를 뒤에 붙이지 않으면 코드가 한번 다 실행되면서 불러옴. 
-
+"""ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ"""
 from day8_2_my_calculator import MyCalculator
 # my_calculator = MyCalculator()
 # my_calculator.div(10, 0) # 컨트롤하고 div를 누르면 함수위치로 이동.

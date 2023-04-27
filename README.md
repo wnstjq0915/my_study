@@ -10,6 +10,7 @@
 [4월 24일](20230424.md)  
 [4월 25일](20230425.md)  
 [4월 26일](20230426.md)  
+[4월 27일](20230427.md)  
 ## Code 요약
 ### 추가로 공부한거
 [코드메모](python_study/study_plus.py)
@@ -48,6 +49,8 @@
 [module_study2](python_study\my_module.py)  
 [try_study](python_study\day8_4_try_study.py)  
 [max_limit_caculator](python_study\day8_5_max_limit_calculator.py)  
+### 4월 27일 코드
+[library_study](python_study\day9_1_library_study.py)
 ## 메모
 - 추후 수정 및 삭제 예정  
 [4월 17일 메모](20230417t.txt)  
@@ -55,4 +58,4 @@
 [4월 19일 메모](20230419t.txt)  
 [4월 20일 메모](20230420t.txt)  
 [4월 21일 메모](20230421t.txt)  
-[4월 25일 메모](20230425t.txt)
+[4월 25일 메모](20230425t.txt)  

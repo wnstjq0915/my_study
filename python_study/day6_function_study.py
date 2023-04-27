@@ -260,8 +260,8 @@ def calc_many(n1, *args): # 일반 매개변수랑도 사용가능
     result = n1
     for i in args:
         result += i
-    return n1
-# def calc_many(*args, n1): 매개변수 순서 바꿔서도 가능
+    return result
+# def calc_many(*args, n1): 매개변수 순서 바꿔서도 가능, 이 경우 n1을 지정해줘야 함.
 
 
 # 키워드 매개변수

@@ -23,7 +23,10 @@ class MaxLimitCalculator(MyCalculator):
         if n1 > 100 or n2 > 100:
             print("100 이하의 정수를 입력해주세요.")
         else:
-            print(f"{n1} - {n2} = {n1 - n2}")
+            if n1 - n2 > 100:
+                print("계산결과가 100 이하가 나오도록 입력해주세요.")
+            else:
+                print(f"{n1} - {n2} = {n1 - n2}")
 
     def mul(self, n1, n2):
         if n1 > 100 or n2 > 100:
@@ -39,7 +42,7 @@ class MaxLimitCalculator(MyCalculator):
             print("100 이하의 정수를 입력해주세요.")
         else:
             if n2 == 0:
-                print("0이 아닌 값을 입력해주세요.")
+                print("0이 아닌 값을 입력해주세요.") # try except 에러를 사용해도 됨. 이 경우는 계산 후에 에러가 뜨게 해야 함.
             else:
                 print(f"{n1} / {n2} = {n1 / n2}")
 
