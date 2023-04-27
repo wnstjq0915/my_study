@@ -33,24 +33,24 @@
 [while_loop](python_study/day4_1_while_loop.py)  
 [for_loop](python_study/day4_2_for_loop.py)  
 ### 4월 21일 코드
-[tuple_data](python_study\day5_1_tuple_data.py)  
-[practice3](python_study\day5_2_practice3.py)  
+[tuple_data](python_study/day5_1_tuple_data.py)  
+[practice3](python_study/day5_2_practice3.py)  
 ### 4월 24일 코드
-[function_study](python_study\day6_function_study.py)  
+[function_study](python_study/day6_function_study.py)  
 ### 4월 25일 코드
-[practice4](python_study\day7_1_practice4.py)  
-[file_io](python_study\day7_2_file_io.py)  
-[mycalculator](python_study\day7_3_my_calculator.py)  
-[formatting](python_study\day7_4_formatting.py)  
+[practice4](python_study/day7_1_practice4.py)  
+[file_io](python_study/day7_2_file_io.py)  
+[mycalculator](python_study/day7_3_my_calculator.py)  
+[formatting](python_study/day7_4_formatting.py)  
 ### 4월 26일 코드
-[class_study](python_study\day8_1_class_study.py)  
-[my_calculator](python_study\day8_2_my_calculator.py)  
-[module_study](python_study\day8_3_module_study.py)  
-[module_study2](python_study\my_module.py)  
-[try_study](python_study\day8_4_try_study.py)  
-[max_limit_caculator](python_study\day8_5_max_limit_calculator.py)  
+[class_study](python_study/day8_1_class_study.py)  
+[my_calculator](python_study/day8_2_my_calculator.py)  
+[module_study](python_study/day8_3_module_study.py)  
+[module_study2](python_study/my_module.py)  
+[try_study](python_study/day8_4_try_study.py)  
+[max_limit_caculator](python_study/day8_5_max_limit_calculator.py)  
 ### 4월 27일 코드
-[library_study](python_study\day9_1_library_study.py)
+[library_study](python_study/day9_1_library_study.py)
 ## 메모
 - 추후 수정 및 삭제 예정  
 [4월 17일 메모](20230417t.txt)  
