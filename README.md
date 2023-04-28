@@ -11,6 +11,7 @@
 [4월 25일](20230425.md)  
 [4월 26일](20230426.md)  
 [4월 27일](20230427.md)  
+[4월 28일](20230428.md)  
 ## Code 요약
 ### 추가로 공부한거
 [코드메모](python_study/study_plus.py)
@@ -51,6 +52,11 @@
 [max_limit_caculator](python_study/day8_5_max_limit_calculator.py)  
 ### 4월 27일 코드
 [library_study](python_study/day9_1_library_study.py)
+### 4월 28일 코드
+[practice5.py](python_study/day10_1_practice5.py)
+[crawling_study](python_study/day10_2_crawling_study.py)
+[crawling_analyze](python_study/day10_3_add_crawling_study.py)
+
 ## 메모
 - 추후 수정 및 삭제 예정  
 [4월 17일 메모](20230417t.txt)  

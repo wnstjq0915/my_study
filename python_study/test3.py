@@ -88,7 +88,7 @@
 # a = range(1, 10)
 # print(a)
 
-print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ') # find랑 cound
+# print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ') # find랑 cound
 # a = ["1", "2", "3"]
 # b = "123456"
 # print(a.count("1"))
@@ -96,20 +96,40 @@ print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ') # find�
 # # find는 문자열만 되고, find는 인덱스, count는 갯수를 출력함
 # print(b.index("4")) # 4의 인덱스인 3 출력
 
-print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ')
-a = "123  "
-print(a.isdigit())
+# print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ')
+# a = "123  "
+# print(a.isdigit())
 
 
-print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ')
-s1 = "   Hello   "
-print(s1.strip()) # 공백 제거되고 Hello 출력
-# lstrip(), rstrip()
-# 왼쪽, 오른쪽 끝의 특정문자 제거
+# print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ')
+# s1 = "   Hello   "
+# print(s1.strip()) # 공백 제거되고 Hello 출력
+# # lstrip(), rstrip()
+# # 왼쪽, 오른쪽 끝의 특정문자 제거
 
-import datetime
-# 며칠동안 수강하는지
-day1 = datetime.date(2023, 4, 17)
-day_end = datetime.date(2023, 9, 18)
-diff = day_end - day1
-print(diff.days)
+# import datetime
+# # 며칠동안 수강하는지
+# day1 = datetime.date(2023, 4, 17)
+# day_end = datetime.date(2023, 9, 18)
+# diff = day_end - day1
+# print(diff.days)
+
+# print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ") # 슬라이싱 범위 헷갈려서
+# a = "abcde"
+# print(a[:3])
+
+# print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ') # for문도 break continue 먹힘
+# for i in range(4):
+#     print(i)
+#     continue
+#     print(i)
+
+
+from bs4 import BeautifulSoup
+html = "<html><body>Hello</body></html>"
+soup = BeautifulSoup(html, "html.parser")
+print(html) # 내용은
+print(soup) # 둘 다 같음
+
+print(soup.body.text) # html은 soup와 같이 .body.text 같은거 못 붙임
+print(type(soup.body.text))
