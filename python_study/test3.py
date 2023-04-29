@@ -133,5 +133,3 @@
 
 # print(soup.body.text) # html은 soup와 같이 .body.text 같은거 못 붙임
 # print(type(soup.body.text))
-
-print('hello')
