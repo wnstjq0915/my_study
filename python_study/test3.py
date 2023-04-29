@@ -125,11 +125,13 @@
 #     print(i)
 
 
-from bs4 import BeautifulSoup
-html = "<html><body>Hello</body></html>"
-soup = BeautifulSoup(html, "html.parser")
-print(html) # 내용은
-print(soup) # 둘 다 같음
+# from bs4 import BeautifulSoup
+# html = "<html><body>Hello</body></html>"
+# soup = BeautifulSoup(html, "html.parser")
+# print(html) # 내용은
+# print(soup) # 둘 다 같음
 
-print(soup.body.text) # html은 soup와 같이 .body.text 같은거 못 붙임
-print(type(soup.body.text))
+# print(soup.body.text) # html은 soup와 같이 .body.text 같은거 못 붙임
+# print(type(soup.body.text))
+
+print('hello')
