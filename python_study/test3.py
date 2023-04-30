@@ -133,3 +133,28 @@
 
 # print(soup.body.text) # html은 soup와 같이 .body.text 같은거 못 붙임
 # print(type(soup.body.text))
+# a = [1, 2, 3, 4]
+# def add(n):
+#     return n + 2
+# print(list(map(add, a)))
+
+
+# A 65, Z 90 a 97 z 122
+# print("HEllo".swapcase())
+
+# print('ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ') # 슬라이싱 판정
+# a = "012345678"
+# b = "123456"
+# c = 4
+# # print(a[c:len(b)])
+# # print(a[c-1:c+1:-1]) # 안됨
+# print(a[-1:-4:-1]) # 됨
+
+# a = [1, 2, 3, 4, 5]
+# b, c, d, e, f = a
+# print(b)
+# print(c)
+# print(d)
+
+a = []
+print(bool(a))
