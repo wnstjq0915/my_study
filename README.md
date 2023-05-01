@@ -65,3 +65,9 @@
 [4월 20일 메모](20230420t.txt)  
 [4월 21일 메모](20230421t.txt)  
 [4월 25일 메모](20230425t.txt)  
+
+## 강사님 강의
+- 주피터
+https://colab.research.google.com/drive/1ui5VjU3VbQ0D6SbgruuEm759wqgNFdWN?usp=sharing
+- 깃헙
+https://github.com/Youngpyoryu/Lecture_Note
