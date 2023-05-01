@@ -39,3 +39,6 @@ for i in range('반복할 횟수')
     """
 ```
 - 횟수반복 특화
+
+### for - else , while - else문
+- break를 써서 반복문을 빠져나오지 않으면 else를 진행.

@@ -1,3 +1,13 @@
+# &는 비트연산자.
+3 & 4 == 0
+# 3은 0011
+# 4는 0100
+# 같은 자릿수가 1일때만 1이 돼서 0000값으로 바뀜.
+3 and 4
+# 4값 반환. 받은값 중 높은값 반환
+3 or 4
+# 3 반환. or 은 낮은값 반환
+
 a = 'abcdefghijk'
 print(a[0:10:2]) # 인덱스 0부터 10까지 2의 간격으로 출력. 결과 acegi
 print(a[::2]) # acegik
@@ -55,6 +65,55 @@ b = a.upper()
 print(b) # "HI"
 # upper <-> lower
 
+
+print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ") # 얕은복사, 깊은복사?
+# 일반적인 경우
+a = 1
+b = 2
+print(a, b)
+a = b
+print(a, b)
+b = 3
+print(a, b)
+# 1 2
+# 2 2
+# 2 3
+
+# 리스트의 경우
+a = [1]
+b = [2]
+print(a, b)
+a = b # a의 주소가 b의 주소로 할당. a가 b의 주소에 귀속됨.
+print(a, b)
+b.append(3) # b에 3을 추가
+# b = [3] # 재할당은 안 됨.
+print(a, b) # a는 건드리지 않았는데 b와 마찬가지로 3 추가
+# 1 2
+# 2 2
+# 2,3 2,3
+# 리스트의 경우에는 변수에 변수를 넣으면 그 주소를 복사해서 넣음.
+
+# 값만 복사하고 싶을 경우
+a = [1]
+b = [2]
+print(a, b)
+a = b[:] # 값만 복사
+print(a, b)
+b.append(3)
+print(a, b)
+# 1 2
+# 2 2
+# 2 2,3
+
+# 2차원 리스트의 경우는 좀 다름.
+a = [[1, 2], [3, 4]]
+b = a[:]
+print(a, b)
+a[0][1] = 100
+print(a, b)
+# a[0][1] 을 바꿨는데 b[0][1]도 바뀜
+
+print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
 a = '     hi     '
 print(a.strip()) # 공백을 없애줌.
 
@@ -143,25 +202,25 @@ print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
 
 ""문자열의 구성 파악하기""
 
-isalnum()
+.isalnum()
 알파벳 또는 숫자 구성인지
 
-is alpha()
+.isalpha()
 알파벳 구성인지
 
-isidentifier()
+.isidentifier()
 식별자(변수나 클래스명으로 가능한 값)로 사용할 수 있는지
 
-isdecimal()
+.isdecimal()
 정수 형태인지
 
-isdigit()
+.isdigit()
 숫자로 인식될 수 있는지
 
-isspace()
+.isspace()
 공백으로만 구성되어 있는지
 
-islower() / isupper()
+.islower() / isupper()
 소문자 / 대문자로만 구성되어 있는지
 """
 

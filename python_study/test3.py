@@ -156,5 +156,65 @@
 # print(c)
 # print(d)
 
-a = []
-print(bool(a))
+# a = []
+# print(bool(a))
+
+# a = list(range(5))
+# [1::2] 홀수만, [::2] 짝수만
+# print(a) # [0, 1, 2, 3, 4]
+
+# print(range(10)[::2]) # range도 슬라이싱 적용
+
+# answer = 0
+# for i in range(10 + 1)[::2]:
+#         answer += i ** 2
+#         print(answer)
+
+
+print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ") # 얕은복사, 깊은복사?
+
+a = 1
+b = 2
+print(a, b)
+a = b
+print(a, b)
+b = 3
+print(a, b)
+
+# 1 2
+# 2 2
+# 2 3
+
+print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
+a = [1]
+b = [2]
+print(a, b)
+a = b # a의 주소가 b의 주소로 할당. a가 b의 주소에 귀속됨.
+print(a, b)
+b.append(3) # b에 3을 추가
+# b = [3] # 재할당은 안 됨.
+print(a, b) # a는 건드리지 않았는데 b와 마찬가지로 3 추가
+
+# 1 2
+# 2 2
+# 2,3 2,3
+# 리스트의 경우에는 변수에 변수를 넣으면 그 주소를 복사해서 넣음.
+
+# 값만 복사하고 싶을 경우
+a = [1]
+b = [2]
+print(a, b)
+a = b[:] # 값만 복사
+print(a, b)
+b.append(3)
+print(a, b)
+# 1 2
+# 2 2
+# 2 2,3
+
+print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
+a = [[1, 2], [3, 4]]
+a = b[:]
+print(a, b)
+a[0][1] = 100
+print(a, b)
