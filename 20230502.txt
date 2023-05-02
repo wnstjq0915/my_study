@@ -1,0 +1,7 @@
+numpy, 행렬 등 공부
+https://www.youtube.com/playlist?list=PLaTc2c6yEwmq1yBe7O_iianrYAwT8X2xz
+https://www.youtube.com/playlist?list=PLRx0vPvlEmdBx9X5xSgcEk4CEbzEiws8C
+https://www.youtube.com/playlist?list=PLBHVuYlKEkULZLnKLzRq1CnNBOBlBTkqp
+https://www.youtube.com/playlist?list=PLc937W-QYjyj2yo-zYvQveNpJoMmwQ1O6
+
+http://bigdata.dongguk.ac.kr/lectures/Python/_book/numpy.html

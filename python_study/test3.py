@@ -218,3 +218,32 @@ a = b[:]
 print(a, b)
 a[0][1] = 100
 print(a, b)
+
+
+print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ") # 함수로 리스트 변수 바꿀 때 주의
+a = [1, 2, 3, 4, 5]
+
+def swap_value1(x, y): # x와 y의 값인 2와 3만 전달
+    print(x)
+    print(y)
+    temp = x # a[1]의 값인 2 백업
+    x = y # x(2)를 a[2]의 값인 3으로
+    y = temp # y(3)을 x(2)로
+    print(x, y) # 3, 2
+    # 밑의 식을 활용하면 리스트 내의 변수도 바뀜.
+    # a[1] = x 
+    # a[2] = y
+
+def swap_value2(x, y): # 리스트의 주소를 받아서 그대로 리스트에 적용
+    temp = a[x]
+    a[x] = a[y]
+    a[y] = temp
+
+def swap_value3(li, x, y): # 리스트와 주소를 함께 받아서 리스트 값 변경
+    temp = li[x]
+    li[x] = li[y]
+    li[y] = temp
+
+
+swap_value1(a[1], a[2])
+print(a) # 리스트 내의 값은 변하지 않고 12345

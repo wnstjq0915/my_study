@@ -74,6 +74,20 @@
 - break: 반복문을 멈춤
 - pass: 반복문을 빠져나감
 
+### 한줄 for문
+- for문 -> 실행문을 변수로 자동으로 리턴  
+실행문 for i in iterable값  
+
+- for - if문  
+'조건문을 거친 반복할 실행문' for i in iterable값 if 조건문  
+
+- for if else문  
+if실행문 if if조건문 else else실행문 for i in iterable  
+if를 만족하면 앞으로, 만족하지 않으면 else값 뒤로  
+
+-2중 for문  
+i+j for i in i에넣을거 for j in j에넣을거  -> i를 쓰는 for문 안에 j를 쓰는 for문  
+
 문법 예시 있음
 ## 숫자형 내장함수
 - abs(값): 값을 절댓값 반환
@@ -109,6 +123,14 @@
 ## 함수 정의
 - args: 입력값의 갯수가 안 정해졌을 때 매개변수로 사용하며 기본매개변수 뒤에 사용함.
 - **kwargs: 받은 입력값을 dictionary 값으로 변환
+
+### 람다 함수정의
+- func1 = lambda x : x + 2
+x를 받아 x + 2의 리턴값을 주는 func1 함수 생성.
+- 람다함수는 변수를 하나만 받을 수 있으므로 map 함수와 같이 사용하면 유용.
+items = [1, 2, 3, 4, 5]  
+list(map(lambda x : x ** 2, items))  
+items의 각 값을 lambda함수를 거쳐 리스트에 저장
 
 ## module
 - import 모듈(파일)이름 : 모듈 내의 코드를 그대로 가져온 뒤, 한번 실행
