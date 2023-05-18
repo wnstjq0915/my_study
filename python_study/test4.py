@@ -108,4 +108,16 @@
 # print(c[:6])
 # print(c[6::-1])
 
-print([1, 2, 3, 4].count(4))
+# print([1, 2, 3, 4].count(4))
+
+# a = [1, 2, 3]
+# print('0' * (len(a) + 1))
+
+# b = [('0' * (len(a) + 1)).split()]
+# print(b)
+# b = list('0000')
+# print(b)
+
+a = {1, 2, 3}
+for i in a:
+    print(i)
