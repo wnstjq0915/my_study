@@ -1,0 +1,5 @@
+이해 안 되는거
+1.1 + 0.1 == 1.2 왜 False인지 모르겠음
+
+나중에 볼거
+https://www.youtube.com/watch?v=-GsrYvZoAdA
