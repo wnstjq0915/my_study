@@ -1,43 +1,15 @@
 # pandas 모음
 - import pandas as pd
+- 행은 Index, 열은 Columns
 
+## pandas 데이터 호출
+- df['컬럼 이름']: 이름으로 행 가져오기.
+- df.columns['인덱스']: 인덱스로 행 가져오기.
+- df.loc['인덱스 이름']: 이름으로 열 가져오기.
+- df.iloc[인덱스]: 인덱스로 열 가져오기.
 
-# pandas 특성
-- 인덱싱 방식
-```python
-obj = pd.Series([0, 1, 2, 3, 4, 5, 6, 7], index['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'], dtype='int64') # 생성
-"""
-obj
-a    0
-b    1
-c    2
-d    3
-e    4
-f    5
-g    6
-h    7
-"""
-obj[3] # 3
-obj[-1] # -7
-obj[[1,3,5]] #multi index 접근방법
-# b 1
-# d 3
-# f 5
-obj[1:3]
-# b 1
-# c 2
-obj[obj<3] # boolean indexing
-# a 0
-# b 1
-# c 2
-obj.c # 2
-obj['c'] # 2
-obj[['e','c']]
-# e 4
-# c 2
-obj['a':'c']
-# a 0
-# b 1
-# c 2
-obj['d':'e']=100 # 슬라이싱으로 값 변경 가능. d, e에 대응되는 값이 100으로 변경.
-```
+- pd.read_csv('경로'): csv파일 열기.(같은 방식으로 엑셀도 가능.)
+- df.head('숫자'): 숫자만큼 행 출력. 기본값 5
+- pd.read_csv('경로', index_col=0): csv파일 열기.(맨 앞 인덱스값 삭제하며 불러오기)
+- df.rename(columns={'바꾸기 전':'바뀐 후'}): 컬럼값 바꾸기. index도 같은 방식.
+- 
