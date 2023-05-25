@@ -1,0 +1,33 @@
+https://ap-northeast-2.console.aws.amazon.com/ec2/home?region=ap-northeast-2#Instances:instanceState=running
+
+푸티 설치할 때
+64비트 x86로
+
+키페어 생성시에
+mac과 리눅스는 .pem
+윈도우는.ppk
+
+이력서 적을 땐
+퍼블릭 IPv4 주소 보다는
+퍼블릭 IPv4 DNS로
+
+신호를 보내는 쪽은 클라이언트
+받는 쪽은 서버
+
+푸티
+ssh
+auth
+credent
+위에 키 넣기.
+
+
+로그인아이디
+ec2-user
+
+cd ~ 로 홈 디렉토리 이동
+아나콘다 리눅스 설치링크 복사
+쉬프트 + 인서트로 붙여넣기가 가능한데
+wget 링크 를 통해 다운로드
+sh An(탭 누르면 아나콘다파일 자동완성)로
+다운받은 파일 실행해서 설치
+동의할거 하면서 스페이스나 엔터로 넘김.
