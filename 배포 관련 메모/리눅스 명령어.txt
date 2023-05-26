@@ -1,0 +1,100 @@
+가상환경 들어가기
+conda activate app_dash
+
+ls 는 간단하게 보기
+ls -l은 숨김파일 숨기고 자세히 보기
+줄임말 ll
+ls -al은 숨김파일 포함 자세히보기
+cd 경로 는 경로 들어가기.
+..는 상위폴더
+.는 현재위치
+탭 누르면 자동완성
+
+---
+뭔가 설치할 때
+터미널은 cmd
+아나콘다(가상환경)는 conda
+리눅스는 yum
+sudo는 권한 실행 같은거
+---
+
+github 클론할 때 진행이 되지 않으면
+깃허브id와
+깃허브 - 설정 - 개발자설정 - personal access tokens
+설명이랑 기간이랑 용도랑 적고 토큰 만들기
+
+클론하고 클론한 폴더에서 streamlit run app.py
+
+방화벽 접속할 때
+서버 들어갈 때
+ip주소와
+appdashboard에 들어갈
+포트가 필요함.
+
+aws에서
+보안
+인바운드 규칙 편집에서
+유형 사용자지정 tcp
+포트범위 푸티에 떠있는 포트, 8501
+소스 aniwhereIP4
+
+푸티에서 밑에 뜬 주소를 마우스로 긁어서 복사
+인터넷 들어가면 됨
+
+서버에 워닝 뜨는거 컬럼 없애고
+학습시키면 안 뜸. .values 같은거 활용
+
+터미널 꺼도 작동하게
+nohup streamlit run app.py &
+
+프로세스 ID확인, 서버 작동하는지
+ps -ef | grep streamlit
+
+서버 끄기
+kill processID(숫자)
+
+서버주소
+http://13.124.57.74:8501
+
+---
+파일 수정
+vim
+vi 파일명
+나가러면 :q 엔터
+
+vscode에서 수정하고 테스트(유닛테스트) 후
+커밋하고 올림. 수정하고 테스트 중요.
+
+리눅스 깃에서 풀하려면
+수정하려는 폴더 들어가서
+git pull 입력
+
+파일확인
+cat 파일
+
+파일 삭제
+rm -rf 디렉토리명(파일명)
+
+자동으로 깃 풀되게 하는거
+putty gen에
+ppk 파일을 로드한 뒤에
+conversion - exportOpenSSHkey
+
+깃허브 세큐리티 액션에
+새 레포지토리 시크릿
+1. 이름: SSH_PRIVATE_KEY
+내용: pem파일 내용
+2. HOST
+ec2 퍼블릭주소
+3. USER
+ec2-user
+--프라이빗 깃일 경우
+4. GIT_USER
+깃 아이디
+5. GIT_PASSWORD
+깃 패스워드토큰
+
+
+깃 -> AW : 배포
+자동배포 과정을 마침.
+
