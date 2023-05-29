@@ -1,3 +1,4 @@
 plotly==5.14.1
 joblib==1.2.0
 파이썬 3.9.16
+conda create -n app_dash python=3.9.16 numpy scipy matplotlib ipython scikit-learn pandas pillow jupyter seaborn

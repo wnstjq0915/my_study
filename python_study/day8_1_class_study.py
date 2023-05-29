@@ -103,7 +103,7 @@ print(s3)
 # 멤버에 접근할 때 사용
 
 print("ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ")
-class person:
+class Person:
     def say(self): # 클래스 안에 정의된 메소드들의 첫번째 매개변수는 self 고정
         self.name = "사람1" # 다른 메소드에서도 사용가능
         print("Hello")
@@ -115,7 +115,7 @@ class person:
     def sleep(self):
         print(f"{self.name}이 잠을 잤습니다.")
 
-person1 = person()
+person1 = Person()
 person1.say()
 person1.eat("밥")
 
