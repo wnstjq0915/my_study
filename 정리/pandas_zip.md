@@ -42,6 +42,7 @@ ex: df[df['age'] >= 20]이면 성인만 있는 df를 가져옴
 - df.size: df의 크기 확인
 - df.apply(func, axis=x): 각 열이나 행에 각각 함수를 적용시키고 싶을 때 사용
 - df[컬럼].sort_index(ascending=True): 값을 오름차순 정렬
+- df.sort_values('컬럼'): 컬럼을 기준으로 데이터프레임 형태로 정렬. df[컬럼].sort_values()하면 시리즈 형태로 나옴.
 - df.corr(numeric_only=True): 각 컬럼의 상관계수를 데이터프레임화  
 numeric_only=True는 숫자로 되어있는 컬럼만 계산하도록 한 것이며, 필수 아님
 
