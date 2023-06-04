@@ -6,6 +6,14 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+
+import platform # 한글폰트 사용
+platform.platform()
+platform.system() # 윈도우는 'Windows', 맥은 'Darwin'
+matplotlib.rcParams['font.family'] = 'Malgun Gothic' # Windows
+# matplotlib.rcParams['font.family'] = 'AppleGothic' # Mac
+matplotlib.rcParams['font.size'] = 15 # 글자 크기
+matplotlib.rcParams['axes.unicode_minus'] = False # 한글 폰트 사용 시, 마이너스 글자가 깨지는 현상을 해결
 ```
 
 ## 시각화
