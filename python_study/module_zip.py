@@ -17,3 +17,5 @@ class Calculator:
         for i in args:
             result += i
         return result
+
+print(Calculator.add_many(1, 3, 5))
