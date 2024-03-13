@@ -118,6 +118,7 @@ ex: list(''.join(문자열)): 문자열을 글자마다 나눠 리스트에 할�
 - .find(찾을문자, 처음인덱스, 끝인덱스): 찾을문자의 인덱스를 반환. 없으면 -1 반환. 처음인덱스와 끝인덱스는 없어도 됨. 리스트, 튜플 등 사용불가, 문자 길어도 됨.
 - .startswith(값): 값으로 시작하는지를 boolean값으로 반환
 - .endswith(값): 값으로 끝나는지를 boolean값으로 반환
+- .isnumeric(): 문자열을 숫자로 변환 가능한지를 boolean값으로 반환
 
 ### 함수
 - list(문자열): 문자열을 한글자씩 나누어 리스트에 저장
@@ -145,6 +146,8 @@ x를 받아 x + 2의 리턴값을 주는 func1 함수 생성.
 items = [1, 2, 3, 4, 5]  
 list(map(lambda x : x ** 2, items))  
 items의 각 값을 lambda함수를 거쳐 리스트에 저장
+- (lambda x: x + 1)(2) # 결과값 3
+- animals.sort(key=lambda animal: animal["preference"])  # 오름차순 by 선호도
 
 ## module
 - import 모듈(파일)이름 : 모듈 내의 코드를 그대로 가져온 뒤, 한번 실행
@@ -155,5 +158,5 @@ items의 각 값을 lambda함수를 거쳐 리스트에 저장
 ## 삼항 연산자
 참일때값 if 조건 else 거짓일때값  
 ex:  
-a = 1 if 조건 else 2  
+a = 1 if 조건 else 2
 조건이 True면 a = 1, False면 a = 2
