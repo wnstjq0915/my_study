@@ -11,6 +11,7 @@ def dfs(graph, start_num, used_nums = set()):
 
 
 # 큐구조로 수정하기
+# while과 인덱스를 하나하나 높여가며 수정
 def bfs(graph, start_num, used_nums):
     if len(graph.keys()) == len(used_nums):
         return
