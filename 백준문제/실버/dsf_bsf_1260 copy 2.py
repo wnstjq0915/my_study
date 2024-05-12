@@ -1,48 +1,42 @@
 def dfs(graph, start_num, used_nums = set()):
-    if start_num not in used_nums:
-        print(start_num, end=' ')
-        used_nums.add(start_num)
-    if len(graph.keys()) == len(used_nums):
+    print(start_num, end=' ')
+    used_nums.add(start_num)
+    if len(graph.keys()) == len(used_nums): # 조건에서의 에러로 생각됨 모든 그래프가 하나로 이어지진 않은 것 같음
         return
     for num in graph[start_num]:
         if num not in used_nums:
             dfs(graph, num, used_nums)
-    return used_nums
+    return
 
 
-# 큐구조로 수정하기
-# while과 인덱스를 하나하나 높여가며 수정
-def bfs(graph, start_num, used_nums):
-    if len(graph.keys()) == len(used_nums):
-        return
-    li = list()
-
-    for num in graph[start_num]:
-        if num not in used_nums:
-            print(num, end=' ')
-            li.append(num)
-            used_nums.add(num)
-    for num in li:
-        bfs(graph, num, used_nums)
+def bfs(graph, start_num):
+    used_nums = {start_num}
+    li = [start_num]
+    print(start_num, end=' ')
+    i = 0
+    len_keys = len(graph.keys())
+    while len(li) != len_keys: # 조건에서의 에러로 생각됨
+        for num in graph[start_num]:
+            if num not in used_nums:
+                used_nums.add(num)
+                li.append(num)
+                print(num, end=' ')
+        i += 1
+        start_num = li[i]
 
 
 graph = dict()
-nums_kind = set()
-li = list()
+li = []
 
-step, start = list(map(int, input().split()))[1:]
-for _ in range(step): li.append(sorted(list(map(int, input().split()))))
+rng, step, start = map(int, input().split())
+for _ in range(step): li.append(list(map(int, input().split())))
 for connect in li:
-    if connect[0] not in graph: graph[connect[0]] = list()
-    if connect[1] not in graph: graph[connect[1]] = list()
+    if connect[0] not in graph: graph[connect[0]] = []
+    if connect[1] not in graph: graph[connect[1]] = []
     graph[connect[0]].append(connect[1])
     graph[connect[1]].append(connect[0])
 for key in graph.keys(): graph[key].sort()
 
-nums_kind.update(set(graph.keys()))
-
 dfs(graph, start)
 print()
-
-print(start, end=' ')
-bfs(graph, start, {start})
+bfs(graph, start)
