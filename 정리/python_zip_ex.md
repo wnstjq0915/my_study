@@ -74,3 +74,68 @@ def fact(n): # 팩토리얼 함수. 5를 받으면 5*4*3*2*1 값 리턴
     if n<=1: #n이 1이하이면 종료조건
         return 1
     return n*fact(n-1)
+```
+## lambda 활용
+- lambda는 함수로만 사용되지 않음.
+
+### map
+- lambda가 함수로 사용
+```python
+map(함수명(또는 람다), 이터러블값) # 각 요소에 함수가 적용된 이터러블값
+```
+- lambda 사용하게 되면
+```python
+answer = list(map(lambda x: x ** 2, range(5)))
+# (0, 1, 2, 3, 4) 각 값에 순서대로 lambda 함수 적용
+print(answer) # [0, 1, 4, 9, 16]
+```
+
+### filter
+- lambda가 조건으로 사용
+```python
+filter(람다조건, 이터러블값) # -> 조건을 만족하는 요소를 가진 이터러블값
+```
+```python
+answer = list(filter(lambda x: x < 5, range(10)))
+# (1, 2, ... 8, 9) 값에 lambda 조건을 만족하는 값만 리턴
+print(answer) # [0, 1, 2, 3, 4]
+```
+
+### reduce
+- 값의 누적이 필요할 때 사용
+```python
+from functools import reduce
+reduce(lambda(값을 누적할 변수, 이터러블값을 읽기 위한 요소: 실행코드, 이터러블값)
+```
+- 기본사용
+```python
+from functools import reduce
+answer = reduce(lambda x, y: x + y, [0, 1, 2, 3, 4])
+print(answer) # 10
+```
+- 문자열에 사용1
+```python
+from functools import reduce
+answer = reduce(lambda x, y: x + y, 'abcde')
+print(answer) # 'abcde'
+```
+- 문자열에 사용2
+```python
+from functools import reduce
+answer = reduce(lambda x, y: x + y.upper(), 'abcde')
+print(answer) # 'aBCDE'
+```
+#### 역순진행
+- 인덱싱에서 슬라이싱에서 ::-1 하는 것과 같이 반대로 진행 가능
+- 문자열에 사용1
+```python
+from functools import reduce
+answer = reduce(lambda x, y: y + x, 'abcde')
+print(answer) # 'edcba'
+```
+- 문자열에 사용2
+```python
+from functools import reduce
+answer = reduce(lambda x, y: y + x.upper(), 'abcde')
+print(answer) # 'eDCBA'
+```
